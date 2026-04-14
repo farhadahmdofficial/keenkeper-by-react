@@ -13,7 +13,7 @@ const YouFriends = () => {
     return (
         <div className=' w-11/12 mx-auto mt-10'>
 
-            <h1 className='text-2xl  font-bold'>Your Friends one</h1>
+            <h1 className='text-2xl  font-bold'>Your Friends </h1>
 
             <div className='grid grid-cols-4 gap-6 mt-3'>
 
