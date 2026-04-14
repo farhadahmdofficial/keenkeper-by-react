@@ -1,0 +1,148 @@
+
+
+[
+  {
+    "id": 1,
+    "name": "Arifur Rahman",
+    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "email": "arif.rahman@email.com",
+    "days_since_contact": 20,
+    "status": "overdue",
+    "tags": ["college", "tech enthusiast"],
+    "bio": "Classmate from Moulvibazar Govt College. We discuss frontend trends and React hooks.",
+    "goal": 14,
+    "next_due_date": "2026-03-25"
+  },
+  {
+    "id": 2,
+    "name": "Sadia Islam",
+    "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+    "email": "sadia.islam@email.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["childhood friend", "neighbor"],
+    "bio": "Grew up in the same neighborhood. She is now working as a graphic designer in Dhaka.",
+    "goal": 30,
+    "next_due_date": "2026-05-10"
+  },
+  {
+    "id": 3,
+    "name": "Tanvir Ahmed",
+    "picture": "https://randomuser.me/api/portraits/men/85.jpg",
+    "email": "tanvir.dev@email.com",
+    "days_since_contact": 6,
+    "status": "almost due",
+    "tags": ["Programming Hero", "coding buddy"],
+    "bio": "Met during the web development course. We often collaborate on Tailwind CSS projects.",
+    "goal": 7,
+    "next_due_date": "2026-04-15"
+  },
+  {
+    "id": 4,
+    "name": "Nusrat Jahan",
+    "picture": "https://randomuser.me/api/portraits/women/65.jpg",
+    "email": "nusrat.jahan@email.com",
+    "days_since_contact": 45,
+    "status": "overdue",
+    "tags": ["university", "study group"],
+    "bio": "A dedicated student from the BBA batch. We spent many hours preparing for finance exams.",
+    "goal": 30,
+    "next_due_date": "2026-03-01"
+  },
+  {
+    "id": 5,
+    "name": "Kamrul Hassan",
+    "picture": "https://randomuser.me/api/portraits/men/22.jpg",
+    "email": "kamrul.h@email.com",
+    "days_since_contact": 12,
+    "status": "on-track",
+    "tags": ["gym partner", "fitness"],
+    "bio": "Met at the local gym. He is a great motivator for consistent workouts and health tips.",
+    "goal": 14,
+    "next_due_date": "2026-04-20"
+  },
+  {
+    "id": 6,
+    "name": "Fahim Shahriar",
+    "picture": "https://randomuser.me/api/portraits/men/11.jpg",
+    "email": "fahim.shah@email.com",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["trading", "forex"],
+    "bio": "Interested in Forex fundamental analysis. We share insights about market liquidity.",
+    "goal": 7,
+    "next_due_date": "2026-04-19"
+  },
+  {
+    "id": 7,
+    "name": "Mehedi Hasan",
+    "picture": "https://randomuser.me/api/portraits/men/45.jpg",
+    "email": "mehedi.hasan@email.com",
+    "days_since_contact": 13,
+    "status": "almost due",
+    "tags": ["school friend", "cricket"],
+    "bio": "School time best friend. We share a common passion for cricket and outdoor sports.",
+    "goal": 14,
+    "next_due_date": "2026-04-16"
+  },
+  {
+    "id": 8,
+    "name": "Anika Tabassum",
+    "picture": "https://randomuser.me/api/portraits/women/26.jpg",
+    "email": "anika.t@email.com",
+    "days_since_contact": 60,
+    "status": "overdue",
+    "tags": ["cousin", "family"],
+    "bio": "Very close cousin who moved to Australia for higher studies. Need to catch up soon.",
+    "goal": 30,
+    "next_due_date": "2026-02-15"
+  },
+  {
+    "id": 9,
+    "name": "Rakib Uddin",
+    "picture": "https://randomuser.me/api/portraits/men/62.jpg",
+    "email": "rakib.u@email.com",
+    "days_since_contact": 1,
+    "status": "on-track",
+    "tags": ["freelancer", "wordpress"],
+    "bio": "Expert in WordPress. He helps me understand digital monetization and passive income.",
+    "goal": 14,
+    "next_due_date": "2026-04-28"
+  },
+  {
+    "id": 10,
+    "name": "Tahmid Hossain",
+    "picture": "https://randomuser.me/api/portraits/men/33.jpg",
+    "email": "tahmid.h@email.com",
+    "days_since_contact": 10,
+    "status": "almost due",
+    "tags": ["gaming", "travel"],
+    "bio": "Travel partner and gaming buddy. We explored Sylhet together last summer.",
+    "goal": 10,
+    "next_due_date": "2026-04-15"
+  },
+  {
+    "id": 11,
+    "name": "Laila Begum",
+    "picture": "https://randomuser.me/api/portraits/women/12.jpg",
+    "email": "laila.b@email.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["entrepreneur", "bakery"],
+    "bio": "Owns a local bakery. We often exchange ideas about small business management.",
+    "goal": 7,
+    "next_due_date": "2026-04-18"
+  },
+  {
+    "id": 12,
+    "name": "Siam Ahmed",
+    "picture": "https://randomuser.me/api/portraits/men/52.jpg",
+    "email": "siam.dev@email.com",
+    "days_since_contact": 25,
+    "status": "overdue",
+    "tags": ["next.js", "frontend"],
+    "bio": "Met at a tech meetup. He is a pro at Next.js and helped me with my first deployment.",
+    "goal": 14,
+    "next_due_date": "2026-03-20"
+  }
+]
