@@ -8,7 +8,7 @@ function App() {
   return (<>
 
 
-  <h2>git hub add </h2>
+  <h2 className='text-red-500'>git hub add </h2>
   </>
     
   )
