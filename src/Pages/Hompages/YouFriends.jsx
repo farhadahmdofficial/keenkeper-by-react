@@ -1,6 +1,7 @@
 
 
 import React, { use } from 'react';
+import YouCard from '../../layout/Componet/Share/YouCard';
 
 const promis =fetch('/data.json').then(res=>res.json())
 
@@ -15,10 +16,17 @@ const YouFriends = () => {
 
             <h1 className='text-2xl  font-bold'>Your Friends </h1>
 
-            <div className='grid grid-cols-4 gap-6 mt-3'>
+            {/* <div className='grid grid-cols-1 md:grid-cols-4 gap-6 mt-3'> */}
+            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-6 px-4 md:px-0'>
 
-                {friends.map((friend,ind)=>{
-                    return<div key={ind} className='border-1 border-amber-300 flex flex-col justify-center items-center p-4 space-y-2 bg-[#FFFFFF]  rounded-2xl shadow h-100' >
+                {friends.map((friend,ind)=> <YouCard friend={friend} key={ind} ></YouCard> 
+                    
+                )}
+ 
+
+            </div>
+
+            {/* <div key={ind} className='border-1 border-amber-300 flex flex-col justify-center items-center p-4 space-y-2 bg-[#FFFFFF]  rounded-2xl shadow h-100' >
 
                         <div >
                             <img className='text-2xl h-25 w-25 flex justify-center items-center rounded-full transition-all duration-300 ' src={friend.picture} alt="" />
@@ -28,11 +36,7 @@ const YouFriends = () => {
                         <p>work</p>
                         <p>almost dau</p>
 
-                    </div>})
-                }
-
-
-            </div>
+                    </div>  */}
             
         </div>
     );
