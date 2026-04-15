@@ -14,7 +14,7 @@ const YouFriends = () => {
     return (
         <div className=' w-11/12 mx-auto mt-10'>
 
-            <h1 className='text-2xl  font-bold'>Your Friends </h1>
+            <h1 className='text-2xl  font-bold'>Your Friends tow adddd </h1>
 
             {/* <div className='grid grid-cols-1 md:grid-cols-4 gap-6 mt-3'> */}
             <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-6 px-4 md:px-0'>
