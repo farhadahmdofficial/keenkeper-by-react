@@ -8,6 +8,8 @@ import RoutLayout from './layout/RoutLayout';
 import HomePage from './Pages/Hompages/HomePage';
 import TimelinePage from './Pages/TimelinePage/TimelinePage';
 import StataPage from './Pages/StatsPage/StataPage';
+import FriendDetails from './Pages/Hompages/FriendDetails';
+
 
 
 const router = createBrowserRouter([
@@ -23,6 +25,14 @@ const router = createBrowserRouter([
       path : "/timeline",
       element : <TimelinePage></TimelinePage>
      },
+     {
+      path : "/:id",
+      element : <FriendDetails></FriendDetails>
+     },
+    //  {
+    //   path : "/:id",
+    //   element : <FriendDetails></FriendDetails>
+    //  },
      {
       path : "/stats",
       element : <StataPage></StataPage>
