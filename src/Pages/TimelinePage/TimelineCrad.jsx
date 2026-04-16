@@ -1,3 +1,4 @@
+import { IoVideocamOutline } from "react-icons/io5";
 
 
 const TimelineCard = ({ item }) => {
@@ -12,7 +13,8 @@ const TimelineCard = ({ item }) => {
             case 'Text':
                 return { icon: '💬', color: 'text-blue-600', bg: 'bg-blue-50' };
             case 'Video':
-                return { icon: '🎥', color: 'text-purple-600', bg: 'bg-purple-50' };
+                return { icon: <IoVideocamOutline />, color: 'text-purple-600', bg: 'bg-purple-50' };
+               
             default:
                 return { icon: '📅', color: 'text-gray-600', bg: 'bg-gray-50' };
         }

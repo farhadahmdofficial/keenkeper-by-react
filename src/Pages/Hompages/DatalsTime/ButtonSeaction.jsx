@@ -17,6 +17,9 @@
 //       </div>
 //     </div>
 //   );
+
+import { IoVideocamOutline } from "react-icons/io5";
+
 // };
 const QuickCheckIn = ({ handalTimeline }) => {
   return (
@@ -43,8 +46,9 @@ const QuickCheckIn = ({ handalTimeline }) => {
           onClick={() => handalTimeline('Video')} 
           className="flex items-center justify-center gap-2 py-3 bg-purple-50 text-purple-700 font-bold rounded-lg border border-purple-100 hover:bg-purple-100 transition"
         >
-          🎥 Video
+          <IoVideocamOutline /> Video
         </button>
+      
 
       </div>
     </div>
