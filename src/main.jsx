@@ -11,6 +11,7 @@ import StataPage from './Pages/StatsPage/StataPage';
 import FriendDetails from './Pages/Hompages/FriendDetails';
 import { TimelineCt } from './Contex/TimelineC';
 import TimlineContex from './Contex/TimlineContex';
+import { Toaster } from 'react-hot-toast';
 
 
 
@@ -46,11 +47,15 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <Toaster position="top-center" reverseOrder={false} />
 
     <TimlineContex>
       <RouterProvider router={router} />,
 
     </TimlineContex>
+
+
+    
 
 
   </StrictMode>,

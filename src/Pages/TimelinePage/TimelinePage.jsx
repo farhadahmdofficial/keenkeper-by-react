@@ -10,7 +10,7 @@ const TimelinePage = () => {
     const [searchTerm, setSearchTerm] = useState('');
     const [filterType, setFilterType] = useState('All');
 
-    // সার্চ এবং ফিল্টার লজিক
+    
     const filteredTimeline = timeline?.filter(item => {
         const matchesSearch = item.name.toLowerCase().includes(searchTerm.toLowerCase());
         const matchesFilter = filterType === 'All' || item.type === filterType;
@@ -46,7 +46,7 @@ const TimelinePage = () => {
                 {/* Timeline List */}
                 <div className="space-y-4">
                     {filteredTimeline && filteredTimeline.length > 0 ? (
-                        // নতুন ডাটা উপরে দেখানোর জন্য রিভার্স করা হয়েছে
+                        
                         [...filteredTimeline].reverse().map((item, index) => (
                             <TimelineCard key={index} item={item} />
                         ))
@@ -71,7 +71,7 @@ export default TimelinePage;
 
 
 
-// import React, { useContext } from 'react';
+
 // import { TimelineCt } from '../../Contex/TimelineC';
 // import TimelineCard from './TimelineCrad';
 

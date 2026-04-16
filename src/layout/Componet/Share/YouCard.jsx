@@ -5,7 +5,9 @@ import { Link } from 'react-router';
 
 const YouCard = ({ friend }) => {
     return (
-        <Link to={`/${friend.id}`} className='border-1 border-amber-300 flex flex-col justify-center items-center p-4 space-y-5 bg-[#FFFFFF]  rounded-2xl shadow h-100' >
+        <Link to={`/${friend.id}`} className='bg-white border border-gray-200 rounded-2xl p-6 shadow-sm flex flex-col justify-center items-center space-y-5  h-100' >
+    {/* return (
+        <Link to={`/${friend.id}`} className='border-1 border-amber-300 flex flex-col justify-center items-center p-4 space-y-5 bg-[#FFFFFF]  rounded-2xl shadow h-100' > */}
 
             <div >
                 <img className='text-2xl h-25 w-25 flex justify-center items-center rounded-full transition-all duration-300 ' src={friend.picture} alt={friend.picture}/>

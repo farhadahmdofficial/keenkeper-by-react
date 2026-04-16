@@ -7,6 +7,7 @@ import { TimelineCt } from '../../Contex/TimelineC';
 import ProfileCard from './DatalsTime/Profile';
 import StatsSection from './DatalsTime/statasSeclection';
 import QuickCheckIn from './DatalsTime/ButtonSeaction';
+import toast from 'react-hot-toast';
 
 const promis = fetch('/data.json').then(res => res.json());
 
@@ -34,16 +35,32 @@ const FriendDetails = () => {
                 id: Date.now()
             };
 
-            // আগের টাইমলাইনের সাথে শুধু নতুন এন্ট্রিটি যোগ করা হলো
+          
             settimeline([...timeline, newEntry]);
             console.log(type, "added to timeline");
+
+
+            toast.success(`${type}  with ${selectedFriend.name}!`, {
+                style: {
+                    border: '1px solid #244D3F',
+                    padding: '16px',
+                    color: '#244D3F',
+                    fontWeight: 'bold'
+                },
+                iconTheme: {
+                    primary: '#244D3F',
+                    secondary: '#FFFAEE',
+                },
+            });
+
+
         }
     };
 
     return (
         <div className="bg-gray-50 min-h-screen mt-12">
             <div className="w-11/12 mx-auto grid grid-cols-1 md:grid-cols-12 gap-6 pb-10">
-                
+
                 {/* Profile Column */}
                 <div className="md:col-span-4 lg:col-span-3">
                     <ProfileCard friend={selectedFriend} />
@@ -77,7 +94,6 @@ export default FriendDetails;
 
 
 
-// import React, { use, useContext, } from 'react';
 // import { useParams } from 'react-router';
 // import { HashLoader } from 'react-spinners';
 // import { TimelineCt } from '../../Contex/TimelineC';
