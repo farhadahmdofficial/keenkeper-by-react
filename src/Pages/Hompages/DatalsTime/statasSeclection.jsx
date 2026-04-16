@@ -16,9 +16,9 @@ const StatsSection = ({ selectedFriend }) => {
         <p className="text-[10px] text-gray-500 uppercase tracking-wider">Goal</p>
       </div>
       {/* Next Due Card */}
-      <div className="bg-white border border-gray-200 rounded-xl p-4 text-center">
-        <h3 className="text-sm font-bold">Next Due</h3>
-        <p className="text-[10px] text-gray-500 uppercase">2026-04-20</p>
+      <div className="bg-white border border-gray-200 rounded-xl p-4 text-center ">
+        <h3 className="text-2xl font-bold">2026-04-20 </h3>
+        <p className="text-[10px] text-gray-500 uppercase">Next Due</p>
       </div>
     </div>
   );
